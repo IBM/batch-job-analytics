@@ -25,7 +25,7 @@ In this code pattern, we show you some analytics samples of a Master Batch Job f
 
 When you complete this sample project, you will understand how to:
 
-* Extract batch job operation data from SMF type 30 records
+* Extract batch job operation data from SMF Type 30 records
 * Explore log data to get insights about batch job elapsed time 
 * Use several algorithms to predict batch job elapsed time 
 * Identify candidates of abnormal batch job instances and business transaction volume
@@ -41,20 +41,23 @@ When you complete this sample project, you will understand how to:
 1. You can use IBM Watson Machine Learning for z/OS through a web browser.
 2. Watson Machine Learning provides Jupyter Notebooks so you can code in Python and Scala.
 3. Watson Machine Learning provides Modeler Flow so you can explore data and train models in canvas by drop-down.
-4. You can read z/OS data sets -- for example, SMF type 30 records in a Python notebook with a mainframe data service.
+4. You can read z/OS data sets -- for example, SMF Type 30 records in a Python notebook with a mainframe data service.
 
 ## What is included ?
    **There are 5 important folders in the project**
    
    ### Data
     1. df_smf.csv
-       Sample output of 1_BatchJob_SMF30Extract.ipynb, which is batch job run time metrics, the most important data input for later batch job analytics.
-       In the z/OS operation log, SMF provides a common interface to extract system operation measurements. SMF Type 30 includes records of batch job operation. 
-       In real client environments, such data could be also collected by other third-party software.
+       Sample output of 1_BatchJob_SMF30Extract.ipynb, which is batch job run time metrics,
+       the most important data input for later batch job analytics.
+       In the z/OS operation log, SMF provides a common interface to extract system operation
+       measurements. SMF Type 30 includes records of batch job operation. Such data could also
+       be collected by other third-party software.
 
     2. MasterBatchJob.csv
        Elapsed time of MBJ in one year, sample data simulated for demo.
-       The elapsed time of MBJ is measured as the number of minutes between the start time of first job in MBJ and the end time of last job in MBJ; it can be calculated from df_smf.csv.
+       The elapsed time of MBJ is measured as the number of minutes between the start time of
+       the first job in MBJ and the end time of the last job in MBJ; it can be calculated from df_smf.csv.
 
     3. TxnVolume.csv
        Transaction volumes of various business types in one year, sample data simulated for demo.   
@@ -63,7 +66,8 @@ When you complete this sample project, you will understand how to:
        Calendar data with calendar elements like weekday, day, month, etc.
 
     5. widetable_MBJ.csv
-       A joined wide table of MBJ elapsed time, transaction volumes, and calendar data, ready for model training for 3_BatchJob_MBJ_Prediction.ipynb.
+       A joined wide table of MBJ elapsed time, transaction volumes, and calendar data, ready
+       for model training for 3_BatchJob_MBJ_Prediction.ipynb.
     
    
    ### Notebook 
@@ -73,9 +77,9 @@ When you complete this sample project, you will understand how to:
       This notebook provides an overview of the sample project.
 
     1_BatchJob_SMF30Extract.ipynb
-      This notebook extracts batch job operation data from SMF data set with type 30 records. You can modify SQL statements in the notebook to extract the information that you’re interested in.
+      This notebook extracts batch job operation data from SMF data set with Type 30 records. You can modify SQL statements in the notebook to extract the information that you’re interested in.
  
-      Please refer to the IBM Knowledge Center about SMF type 30 records to find out more about mainframe job metrics definition according to your z/OS version.
+      Please refer to the IBM Knowledge Center about SMF Type 30 records to find out more about mainframe job metrics definition according to your z/OS version.
       SMF data set with one year SMF30 data is too large to fit in a sample project so only the output from this notebook - df_smf.csv is included for your information.
 
     2_BatchJob_MBJ_DataExploration.ipynb
