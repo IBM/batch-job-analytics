@@ -77,16 +77,21 @@ When you complete this sample project, you will understand how to:
       This notebook provides an overview of the sample project.
 
     1_BatchJob_SMF30Extract.ipynb
-      This notebook extracts batch job operation data from SMF data set with Type 30 records. You can modify SQL statements in the notebook to extract the information that you’re interested in.
+      This notebook extracts batch job operation data from SMF data set with Type 30 records.
+      You can modify SQL statements in the notebook to extract the information that you’re interested in.
  
-      Please refer to the IBM Knowledge Center about SMF Type 30 records to find out more about mainframe job metrics definition according to your z/OS version.
-      SMF data set with one year SMF30 data is too large to fit in a sample project so only the output from this notebook - df_smf.csv is included for your information.
+      Please refer to the IBM Knowledge Center about SMF Type 30 records to find out more
+      about mainframe job metrics definition according to your z/OS version.
+      SMF data set with one year SMF30 data is too large to fit in a sample project so only the
+      output from this notebook - df_smf.csv is included for your information.
 
     2_BatchJob_MBJ_DataExploration.ipynb
-      This notebook explores MBJ's elapsed time to get insights on trends in timeline, correlation to daytime business volumes and periodicity on week/day/month.
+      This notebook explores MBJ's elapsed time to get insights on trends in timeline,
+      correlation to daytime business volumes and periodicity on week/day/month.
 
     3_BatchJob_MBJ_Prediction.ipynb
-      This notebook applies 3 methods to predict MBJ elapsed time based on historical data, calendar information, and business transaction volume data, and then emsembles them as final results.
+      This notebook applies three methods to predict MBJ elapsed time based on historical data,
+      calendar information, and business transaction volume data, and then emsembles them as final results.
 
     **Note:** In the notebook cell, when reading local dataset on Watson Machine Learning for z/OS, you will need a token for authetication, the expiration period is configurated by adminitrator, when you run cell failed and error message shows that token expired, please click on top right button to get a new up-to-date token to replace the old project context.
   
