@@ -128,7 +128,7 @@ When you complete this sample project, you will understand how to:
 2. Login to Watson Machine Learning for z/OS in your enterprise Watson Machine Learning for z/OS URL, with your username and password.
 3. Select "Projects" in the left menu pallete, click on "Create New Project."
 4. Select the "Add from file" tab, browse in your computer and select the file you downloaded in step 1, then click "OK."
-5. Check to see that the new project has been added; it should includes 4 notebooks, 2 flows, and 5 data sets.
+5. Check to see that the new project has been added; it should include 4 notebooks, 2 flows, and 5 data sets.
 
 <!-- keep this -->
 ## License
