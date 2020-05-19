@@ -110,8 +110,11 @@ When you complete this sample project, you will understand how to:
       
 
   ### ProjectZIP
-    2 zip files with same content, BatchJobAnalytics.zip and BatchJobAnalytics.tar.gz, used for Windows/Mac and Linux, respectively.
-    In a web browser with IBM Waston Machine Learning for z/OS, you can "Add Project" from file with the zip file. This will add a new project with the previous Python notebooks and all datasets at one time. And then you can explore the sample project as you like.
+    Two zip files with same content, BatchJobAnalytics.zip and BatchJobAnalytics.tar.gz, used for
+    Windows, Mac and Linux, respectively.
+    In a web browser with IBM Watson Machine Learning for z/OS, you can "Add Project" from file with
+    the zip file. This will add a new project with the previous Python notebooks and all datasets at one
+    time. And then you can explore the sample project as you like.
   
   ### View
     Before you run and explore the demo process of analytics, you can easily find the demo output here:  
