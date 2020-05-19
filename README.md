@@ -48,7 +48,9 @@ When you complete this sample project, you will understand how to:
    
    ### Data
     1. df_smf.csv
-    Sample output of 1_BatchJob_SMF30Extract.ipynb, which is batch job run time metrics, the most important data input for later batch job analytics. In the z/OS operation log, SMF provides a common interface to extract system operation measurements. SMF Type 30 includes records of batch job operation. In real client environments, such data could be also collected by other third-party software.
+       Sample output of 1_BatchJob_SMF30Extract.ipynb, which is batch job run time metrics, the most important data input for later batch job analytics.
+       In the z/OS operation log, SMF provides a common interface to extract system operation measurements. SMF Type 30 includes records of batch job operation. 
+       In real client environments, such data could be also collected by other third-party software.
 
     2. MasterBatchJob.csv
        Elapsed time of MBJ in one year, sample data simulated for demo.
