@@ -71,7 +71,8 @@ When you complete this sample project, you will understand how to:
     
    
    ### Notebook 
-    This includes the source code of 4 Python notebooks. You can open them in the Jupyter web environment and run them one-by-one following the instruction inside the notebook.
+    This includes the source code of 4 Python notebooks. You can open them in the Jupyter web environment
+    and run them one-by-one following the instruction inside the notebook.
    
     0_readme.ipynb
       This notebook provides an overview of the sample project.
@@ -93,7 +94,10 @@ When you complete this sample project, you will understand how to:
       This notebook applies three methods to predict MBJ elapsed time based on historical data,
       calendar information, and business transaction volume data, and then emsembles them as final results.
 
-    **Note:** In the notebook cell, when reading local dataset on Watson Machine Learning for z/OS, you will need a token for authetication, the expiration period is configurated by adminitrator, when you run cell failed and error message shows that token expired, please click on top right button to get a new up-to-date token to replace the old project context.
+    **Note:** In the notebook cell, when reading local dataset on Watson Machine Learning for z/OS, you
+    will need a token for authetication, the expiration period is configurated by adminitrator, when you
+    run cell failed and error message shows that token expired, please click on top right button to get a
+    new up-to-date token to replace the old project context.
   
   ### Flow
     This project has 2 flows which you need to open in Watson Machine Learning for z/OS.
