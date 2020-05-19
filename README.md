@@ -33,7 +33,7 @@ When you complete this sample project, you will understand how to:
 ## Architecture
 
 <!--add an image in this path-->
-![architecture](Image/architecture.png)
+![architecture](https://developer.ibm.com/developer/patterns/analyze-batch-job-on-ibm-mainframe-via-watson-machine-learning-on-zos/images/flow-v2.png)
 
 
 ### Highlights
